@@ -1,19 +1,25 @@
 import Cocoa
 import WebKit
-class ViewController: NSViewController, WKUIDelegate {
+class ViewController: NSViewController {
     
-    var webView: WKWebView!
+    //Outlet
+    @IBOutlet weak var load: WKWebView!
     
-    override func loadView() {
-        let webConfiguration = WKWebViewConfiguration()
-        webView = WKWebView(frame: .zero, configuration: webConfiguration)
-        webView.uiDelegate = self
-        view = webView
-    }
+    //Variables
+    let url1 = URL(string: "https://apple.com")
+    let customUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.1 Safari/605.1.15"
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let myURL = URL(string:"https://www.apple.com")
-        let myRequest = URLRequest(url: myURL!)
-        webView.load(myRequest)
-    }}
+        let req = URLRequest(url: url1!)
+        load.customUserAgent = customUserAgent
+        load.load(req)
+    }
+    
+    override var representedObject: Any? {
+        didSet {
+            // Update the view, if already loaded.
+        }
+    }
+    
+}

@@ -1,8 +1,4 @@
 Creating Mac app for vtop site
 
-Unable to develop the webKit view because of faulty and insufficient documentation of APPLE
-My window is not coming up after helping
-HELP
-HELP
-HELP
-!SOS!
+Dont Worry problem solved.
+just change the developer certificate to yours and run the app.
