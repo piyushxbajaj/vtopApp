@@ -7,7 +7,9 @@ class ViewController: NSViewController {
     
     //Variables
     let url1 = URL(string: "https://vtop.vit.ac.in/vtop/initialProcess")
-    let customUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.1 Safari/605.1.15"
+    //CustomUserAgent: Snapped it out of my own safari browser
+    let customUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15"
+//    let customUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.1 Safari/605.1.15"
  
     override func viewDidLoad() {
         super.viewDidLoad()
