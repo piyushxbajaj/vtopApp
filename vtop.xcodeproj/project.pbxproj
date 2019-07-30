@@ -279,7 +279,7 @@
 				CODE_SIGN_ENTITLEMENTS = vtop/vtop.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = GTXX84TV93;
+				DEVELOPMENT_TEAM = P25V5T59K2;
 				INFOPLIST_FILE = vtop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,7 +299,7 @@
 				CODE_SIGN_ENTITLEMENTS = vtop/vtop.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = GTXX84TV93;
+				DEVELOPMENT_TEAM = P25V5T59K2;
 				INFOPLIST_FILE = vtop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
