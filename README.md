@@ -7,7 +7,3 @@ Unable to remove dock and menu even after trying through PresentationOptions .Au
 Was about to store the password and username in the local data
 Then I realized about the capcha problem.
 
-So...
-
-GIVING UP
-Moving on to next project
